@@ -1,1 +1,2 @@
-# course3project Code Book
+# Code Book: Getting and Cleaning Data Project
+Variables
