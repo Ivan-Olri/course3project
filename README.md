@@ -3,9 +3,9 @@
 This ReadME file states the files present in the GitHub repository. Additionally, it explains how each part of the run_analysis.R script works and, at the end, explains how to read in R the txt file created that contains the final tidy data. 
 
 
-### Files included:
-1. run_analysis.R, which contains the code used to create the tidy data set.
-2. CodeBook, which explains the variables
+### Files in repository:
+1. run_analysis.R, which contains the code used to create the tidy data set,
+2. CodeBook, which explains the variables,
 3. This README file.
 
 #### The run_analysis.R script does the following:
