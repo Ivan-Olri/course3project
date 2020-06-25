@@ -25,7 +25,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
     frequencyBodyGyroometerMagnitude
     frequencyBodyGyroometerJerkMagnitude
   
-#### The measurements were obtained on five different activities for each subject and for each variable, namely:
+#### The measurements were obtained from five different activities for each subject and for each variable, namely:
     WALKING
     WALKING_UPSTAIRS
     WALKING_DOWNSTAIRS
