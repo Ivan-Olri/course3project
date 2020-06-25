@@ -38,4 +38,3 @@ finaldata = tidydata %>%
         group_by(subject,activity) %>%
         summarise_all(mean)
 write.table(finaldata,'Final.txt', row.names = F)
-
