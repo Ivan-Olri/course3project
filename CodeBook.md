@@ -10,33 +10,56 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
   timeBodyAccelerometer-XYZ
+  
   timeGravityAccelerometer-XYZ
+  
   timeBodyAccelormeterJerk-XYZ
+  
   timeBodyGyrometer-XYZ
+  
   timeBodyGyrometerJerk-XYZ
+  
   timeBodyAccelerometerMagnitude
+  
   timeGravityAccelerometerMagnitude
+  
   timeBodyAccelerometerJerkMagnitude
+  
   timeBodyGyrometerMagnitude
+  
   timeBodyGyroometerJerkMagnitude
+  
   frequencyBodyAccelerometer-XYZ
+  
   frequencyBodyAccelerometerJerk-XYZ
+  
   frequencyBodyGyroometer-XYZ
+  
   frequencyBodyAccelerometerMagnitude
+  
   frequencyBodyAccelerometerJerkMagnitude
+  
   frequencyBodyGyroometerMagnitude
+  
   frequencyBodyGyroometerJerkMagnitude
   
 The measurements were obtained on five different activities for each subject and for each variable, namely:
+
   WALKING
+  
   WALKING_UPSTAIRS
+  
   WALKING_DOWNSTAIRS
+  
   SITTING
+  
   STANDING
+  
   LAYING
 
-The set of variables that were used from these signals for the final tidy data set are: 
-  Mean value
-  Mean frequency
-  Standard deviation
+The set of variables that were used from these signals for the final tidy data set are:
+
+  Mean value, 
+  Mean frequency, 
+  Standard deviation.
   
