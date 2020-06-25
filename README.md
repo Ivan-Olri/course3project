@@ -11,4 +11,5 @@ This repo explains how each part of the code works and, at the end, explains how
 
 To read the txt file in R, use the following code, making sure the txt file is located in the working directory:
 > check  = read.table('Final.txt', header = TRUE)
+
 > View(check)
