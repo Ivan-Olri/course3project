@@ -6,9 +6,9 @@
 
 *Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals).'* 
 
-That is the original description of the dataset provided. For this assignment, which created a tidy data set based on the original data provided by Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita (November 2012), a specific set of measurements were selected. These are described below:
+That is the original description of the dataset provided. For this assignment, which created a tidy data set based on the original data provided by Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita (November 2012), a specific set of variables were selected. These are described below. 
 
-#### These measurements were the ones selected for the final tidy data set: 
+#### These variables were the ones selected for the final tidy data set: 
 *('-XYZ' is used to denote 3-axial signals in the X, Y and Z directions)*
 
     timeBodyAccelerometer-XYZ
@@ -37,8 +37,9 @@ That is the original description of the dataset provided. For this assignment, w
     STANDING
     LAYING
 
-#### The set of variables that were used from these signals for the final tidy data set are:
+#### The set of measurements that were used from these signals for the final tidy data set are:
     Mean value 
     Mean frequency 
     Standard deviation
   
+  The final data set created upon running the run_analysis.R script contains a summary of each variable for every subject, activity and measurement described above.
