@@ -10,6 +10,6 @@ This repo explains how each part of the code works and, at the end, explains how
 6. Finally, a second, independent tidy data set with the average of each variable for each activity and each subject is created. This final data set is then saved as a txt file called 'Final.txt'.
 
 To read the txt file in R, use the following code, making sure the txt file is located in the working directory:
-> check  = read.table('Final.txt', header = TRUE)
+> check  = read.table('Final.txt', header = T)
 
 > View(check)
