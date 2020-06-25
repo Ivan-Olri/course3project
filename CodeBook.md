@@ -1,15 +1,42 @@
 # Code Book
 
-This repo explains how each part of the code works and, at the end, explains how to read in R the final txt file created that contains the tidy data.
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
-The first part of the scrip loads the needed library for the analysis, followed by reading and naming all the files that will be used.
-The second part binds each data set (train & test) first separately using 'cbind' and then together using 'rbind'.
-Next, the measurements that contain only the mean and SD are selected and saved into a new data set called 'tidydata'.
-The activity code is then replaced by the activity name.\
-This part renames the columns using descriptive variables rather than abbreviations using 'gsub'.
-Finally, a second, independent tidy data set with the average of each variable for each activity and each subject is created. This final data set is then saved as a txt file called 'Final.txt'.
-To read the txt file in R, use the following code, making sure the txt file is located in the working directory:
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
 
-check = read.table('Final.txt', header = T)
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
 
-View(check)
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+  timeBodyAccelerometer-XYZ
+  timeGravityAccelerometer-XYZ
+  timeBodyAccelormeterJerk-XYZ
+  timeBodyGyrometer-XYZ
+  timeBodyGyrometerJerk-XYZ
+  timeBodyAccelerometerMagnitude
+  timeGravityAccelerometerMagnitude
+  timeBodyAccelerometerJerkMagnitude
+  timeBodyGyrometerMagnitude
+  timeBodyGyroometerJerkMagnitude
+  frequencyBodyAccelerometer-XYZ
+  frequencyBodyAccelerometerJerk-XYZ
+  frequencyBodyGyroometer-XYZ
+  frequencyBodyAccelerometerMagnitude
+  frequencyBodyAccelerometerJerkMagnitude
+  frequencyBodyGyroometerMagnitude
+  frequencyBodyGyroometerJerkMagnitude
+  
+The measurements were obtained on five different activities for each subject and for each variable, namely:
+  WALKING
+  WALKING_UPSTAIRS
+  WALKING_DOWNSTAIRS
+  SITTING
+  STANDING
+  LAYING
+
+The set of variables that were used from these signals for the final tidy data set are: 
+  Mean value
+  Mean frequency
+  Standard deviation
+  
