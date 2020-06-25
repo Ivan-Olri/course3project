@@ -36,7 +36,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
     LAYING
 
 #### The set of variables that were used from these signals for the final tidy data set are:
-      Mean value 
-      Mean frequency 
-      Standard deviation
+    Mean value 
+    Mean frequency 
+    Standard deviation
   
