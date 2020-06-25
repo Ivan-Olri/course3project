@@ -6,7 +6,7 @@
 
 That is the original description of the dataset provided. For this assignment, which created a tidy data set based on the original data provided by Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita (November 2012), a specific set of measurements were selected. These are described below:
 
-#### These measurements were the final ones selected for the final tidy data set: 
+#### These measurements were the ones selected for the final tidy data set: 
 *('-XYZ' is used to denote 3-axial signals in the X, Y and Z directions)*
 
     timeBodyAccelerometer-XYZ
