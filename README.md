@@ -1,8 +1,14 @@
 # README: Getting and Cleaning Data Project
 
-This ReadME file explains how each part of the script works and, at the end, explains how to read in R the final txt file created that contains the tidy data. It also explains the different files present in the  GitHub repository.
+This ReadME file states the files present in the GitHub repository. Additionally, it explains how each part of the run_analysis.R script works and, at the end, explains how to read in R the txt file created that contains the final tidy data. 
 
-The run_analysis.R script does the following:
+
+### Files included:
+1. run_analysis.R, which contains the code used to create the tidy data set.
+2. CodeBook, which explains the variables
+3. This README file.
+
+#### The run_analysis.R script does the following:
 
 1. The first part of the scrip loads the needed library for the analysis, followed by reading and naming all the files that will be used.
 2. The second part binds each data set (train & test) first separately using 'cbind' and then together using 'rbind'.
@@ -15,3 +21,4 @@ To read the txt file in R, use the following code, making sure the txt file is l
 > check  = read.table('Final.txt', header = T)
 
 > View(check)
+
